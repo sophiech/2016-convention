@@ -18,6 +18,10 @@
 }
 
 /* Change link color to (black) on hover */
-.nav-item a:hover {
+.nav-item a:hover:not(.active) {
+	background-color: #111;
+}
+
+.active {
 	background-color: #87CEFA;
 }
