@@ -1,3 +1,7 @@
+html {
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
 .header-nav {
 	list-style-type: none;
 	margin: 0;
@@ -24,4 +28,8 @@
 
 .active {
 	background-color: #87CEFA;
+}
+
+.header-logo {
+	font-family: 'Ubuntu', sans-serif;
 }
