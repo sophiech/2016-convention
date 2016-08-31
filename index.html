@@ -25,3 +25,12 @@
 	</div>
 </header>
 <img src="background.jpg" class="img-responsive" alt="Image of Tech World">
+<div id="convention-countdown"></div>
+<script type="text/javascript">
+  $("#getting-started")
+  .countdown("2016/10/22", function(event) {
+    $(this).text(
+      event.strftime('%D days %H:%M:%S')
+    );
+  });
+</script>
